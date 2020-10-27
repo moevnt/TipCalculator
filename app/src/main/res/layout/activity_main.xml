@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="left"
+    >
+    <!-- Bill amount -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:text="@string/text_view_bill_amount" />
+
+        <EditText
+            android:id="@+id/edit_text_bill_amount"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:text="@string/edit_text_bill_amount"
+            android:inputType="numberDecimal" />
+    </LinearLayout>
+
+    <!-- Percent amount -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="27dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:text="@string/text_view_percent" />
+
+        <TextView
+            android:id="@+id/text_view_percent_display"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="@string/text_view_percent_display" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:text="@string/text_view_percent_symbol" />
+
+        <Button
+            android:id="@+id/button_percent_minus"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:text="@string/button_percent_minus" />
+
+        <Button
+            android:id="@+id/button_percent_plus"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:text="@string/button_percent_plus" />
+    </LinearLayout>
+
+    <!-- Tip -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="left">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="30dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:text="@string/text_view_tip" />
+
+        <TextView
+            android:id="@+id/text_view_tip_amount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="@string/text_view_tip_amount" />
+    </LinearLayout>
+
+    <!-- Total -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="left">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="30dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:text="@string/text_view_total" />
+
+        <TextView
+            android:id="@+id/text_view_total_amount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="@string/text_view_total_amount" />
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Tip Calculator</string>
+    <!-- row 1-->
+    <string name="text_view_bill_amount">Bill Amounts</string>
+    <string name="edit_text_bill_amount">0.00</string>
+
+    <!-- row 2-->
+    <string name="text_view_percent">Percent</string>
+    <string name="text_view_percent_display">20</string>
+    <string name="text_view_percent_symbol">%</string>
+    <string name="button_percent_minus">-</string>
+    <string name="button_percent_plus">+</string>
+
+    <!-- row 3-->
+    <string name="text_view_tip">Tip</string>
+    <string name="text_view_tip_amount">$0.00</string>
+
+    <!-- row 3-->
+    <string name="text_view_total">Total</string>
+    <string name="text_view_total_amount">$0.00</string>
+
+</resources>
